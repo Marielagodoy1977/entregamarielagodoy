@@ -1,12 +1,4 @@
  /*portfolio*/
-
-/* .gallery { */
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    padding: 20px;
-    gap: 20px;
-  } */
-
   .gallery {
     display: flex;
     padding: 20px;
@@ -35,7 +27,6 @@
 
   .wide {
     grid-column: span 2;
-
-    /* flex-grow: 2;
-    flex-basis: 400px; */
   }
+
+  
