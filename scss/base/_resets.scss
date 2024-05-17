@@ -1,0 +1,43 @@
+img {
+    @include imagenes(100%, 500px);
+  }
+  h1,
+  h2 {
+    font-family: $main-font;
+  }
+  
+  p,
+  a {
+    font-family: $second-font;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+ header {
+    display:flex;
+    justify-content: space-between;
+}
+body {
+    background-image: url("../images/concrete-texture.png");
+}
+
+.contenedorLogo {
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+.logo {
+   height: 100px;
+}
+
+.posicionLogo {
+  width: 10%;
+  margin-right:100%;
+}
+
+
+
+

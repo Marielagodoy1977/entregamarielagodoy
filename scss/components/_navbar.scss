@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: space-between;
+  }  
+  nav {
+      background-image: url("../images/concrete-texture.png");
+    }
+  .bg-image {
+      background-image: url("../images/concrete-texture.png");
+    }
+  
+    .nav-link {
+      text-decoration: none;
+      color:#00358E;
+      transition: 0.3s;
+      &:hover {
+      background-color: transparent;
+      color: transparent;          
+      }
+    }
+    
+  .navbar-toggler { background-color:transparent;  
+      border-color: transparent;
+      padding: 10px;
+      border-radius: 10px;
+      transition: 0.3s;
+      &:hover {
+      background-color: #0088DE;
+      border-color: transparent;
+      color: transparent
+      }
+    }
+    
+  .contenedorLogo {
+      padding-top: 3%;
+      padding-left: 3%;
+  }
+  
+  .logo {
+     height: 100px;
+  }
+  
+  .posicionLogo {
+    width: 10%;
+    margin-right: 100%;
+  }
