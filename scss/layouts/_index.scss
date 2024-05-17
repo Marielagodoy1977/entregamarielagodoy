@@ -16,11 +16,9 @@ img{
   .indexTextoprincipal {
     margin-left: 5%;
     margin-top: 10%;
-    font-size: 50px;
-    font-weight: 100px;
+    font-size:calc(1rem + 1vw);
     font-style: normal;
     text-align: center;
-    position: absolute;
   }
   
   .imagenIndex {
