@@ -6,6 +6,11 @@
     padding: 10px;
     row-gap: 10px;
   }
+img{
+    width: 100%;
+    height: 500 px;
+    object-fit: cover;
+}
   
   
   .indexTextoprincipal {
@@ -32,9 +37,25 @@
    @include flex (row, center, center, 20px)
   }
 
-  .subtitulo {MA
+  .subtitulo {
     width: 40%;
-    @include flex (column, center, flex-start, 20px)
+    @include flex (column, center, flex-start, 20px);
+
+   .imagentexto {
+
+        width:50%;
+        height:30%;
+        @include flex (column, center, flex-start, 20px)
+       
+      }
+    
+      
+  .palabrasEnlaces {
+        font-family: roboto;
+        font-size: 15;
+        font-weight: 300;
+        color: #E0040B;
+      }
   }
 
   .imagentexto {
